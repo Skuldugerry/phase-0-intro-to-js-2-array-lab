@@ -21,10 +21,10 @@ function prependCat(){
     return newCats
 };
 function removeLastCat(){
-    const newCats=[cats.slice(0,cats.length -1)]
+    const newCats=cats.slice(0,cats.length -1)
     return newCats
 };
 function removeFirstCat(){
-    const newCats=[cats.slice(1,3)];
+    const newCats=cats.slice(1,3);
     return newCats;
 };
